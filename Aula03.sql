@@ -1,4 +1,6 @@
-create database cadastro;
+create database cadastro_1;
+
+use cadastro_1;
 
 create table pessoas(
 nome varchar(30),
@@ -9,3 +11,4 @@ altura float,
 nacionalidade varchar(20)
 );
 
+describe pessoas;

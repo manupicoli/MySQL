@@ -20,11 +20,3 @@ change profissao prof varchar(20); /*para renomear a coluna tem que colocar o no
 
 alter table pessoas
 rename to gafanhotos; /*para modificar o nome da tabela inteira*/
-
-create table if not exists cursos(
-nome,
-descricao,
-carga,
-totaulas,
-ano
-);
